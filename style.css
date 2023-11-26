@@ -1,5 +1,30 @@
 
+* {
+    box-sizing: border-box;
+}
 
+.prodotti {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.prodotti div {
+    display: flex;
+    width: 45%;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.prodotti div > * {
+    margin : 5px; 
+}
 img {
-    width: 20%;
+    display: block;
+    width: 30%;
+    height: 50%;
+    object-fit: cover; 
+}
+
+input {
+ width: 40%;    
 }
